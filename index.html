@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js & Bootstrap</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- start sitting box -->
+    <div class="sitting-box">
+        <div class="toggle-sitting">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </div>
+        <div class="sitting-container">
+            <div class="colors-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#009688"></li>
+                    <li data-color="#a80e42"></li>
+                    <li data-color="#14555f"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bullets-option">
+            <h4>Show Bullets</h4>
+            <span class="active" data-display="show" id="show">Show</span>
+            <span data-display="hide" id="hide">Hide</span>
+        </div>
+        <button class="reset-options">Reset Options</button>
+    </div>
+    <!-- end sitting box -->
+
+
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="container">
+            <!-- start header -->
+            <div class="header">
+                <div class="logo">
+                    <img src="imgs/logo3.png" alt="">
+                </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="" class="active" data-section=".about-us">Landing Page</a></li>
+                        <li><a href="" data-section=".about-us">About Us</a></li>
+                        <li><a href="" data-section=".skills">Skills</a></li>
+                        <li><a href="" data-section=".gallery">Gallery</a></li>
+                    </ul>
+                    <button class="toggle-menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div> 
+            <!-- end header -->
+            <div class="landing-container">
+                <div class="text">
+                    <h1>We design <br>
+                        <span id="text"></span>
+                        websites 
+                    </h1>
+                    <p>that clearly communicate your message & convert visitors into clients.</p>
+                    <button  class="get-in-touch"  data-section=".contact-us">Get in touch</button>
+                </div>
+                <div class="layer image-box">
+                    <img class="transparent-layer" src="imgs/lyer2.png" alt="">
+                    <img class="screen" src="imgs/layer2-screen.png" alt="">
+                    <img class="arrow" src="imgs/arrow.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end landing page -->
+
+
+
+
+    <!-- start about us -->
+            <div class="about-us">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <div class="info-box">
+                        <div class="row1">
+                            <div class="about about1">
+                                <h2>
+                                    <div class="point"></div>
+                                    Creative Web Developer
+                                </h2>
+                                <p>we are Creative Web Developer and Designer, working in web development and print media. we enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+                            </div>
+                            <div class="about about2">
+                                <h2>
+                                    <div class="point"></div>
+                                    our goal is 
+                                </h2>
+                                <p>to make sure your website is fully functional, user-friendly and elegant. Moreover, we add personal touch to your website and app and make sure that it is catchy and user-friendly.</p>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img src="./imgs/about-us-babyblue-mask.png" alt="">
+                            <!-- <img class="mobile2" src="imgs/mobile.png" alt=""> -->
+                            <img class="circle-lyer" src="imgs/circle-lyer.png" alt="">
+                            <img class="circle-lyer2" src="imgs/circle-lyer2.png" alt="">
+                        </div>
+                        <div class="row3">
+                        <div class="about about3">
+                            <h2>
+                                <div class="point"></div>
+                                our aim is
+                            </h2>
+                            <p>to bring across your message and identity in the most creative way. we have also developed wesbites for top brands.</p>
+                        </div>`
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
